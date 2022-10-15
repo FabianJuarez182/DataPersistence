@@ -54,6 +54,8 @@ android {
 }
 
 dependencies {
+    implementation "androidx.datastore:datastore-preferences:1.0.0"
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:2.3.1"
     implementation "androidx.core:core-ktx:$core_ktx_version"
     implementation "androidx.appcompat:appcompat:$appcompat_version"
     implementation "com.google.android.material:material:$material_version"
